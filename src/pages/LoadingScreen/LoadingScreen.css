@@ -1,0 +1,7 @@
+.laoding-screen {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 3vw;
+  flex-direction: column;
+}

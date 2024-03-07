@@ -11,8 +11,8 @@ const LoadingScreen = () => {
     }, 2000);
   });
   return (
-    <section className="laoding-screen">
-      <h1>Welcome to our site</h1>
+    <section className="loading-screen">
+      <h1>Welcome to our website!</h1>
       <img src="../../../public/img/loading.png" alt="Loading Icon" />
     </section>
   );

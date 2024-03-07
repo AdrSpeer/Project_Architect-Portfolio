@@ -1,0 +1,76 @@
+/* Project Section */
+.project {
+  display: flex;
+  align-items: center;
+  margin: 2vw 5vw;
+}
+.project h2 {
+  font-size: 50px;
+  max-width: 10ch;
+}
+.project span {
+  font-size: 40px;
+  color: gray;
+}
+
+.project-box {
+  background: url(../../../public/img/project.png) no-repeat center;
+  background-size: cover;
+  height: 65vw;
+  width: 80%;
+  display: flex;
+  align-items: flex-end;
+}
+.project-box a {
+  background-color: white;
+  padding: 2vw;
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+.project-box a:hover {
+  scale: 1.2;
+}
+
+/* About Section */
+
+.about {
+  display: flex;
+  margin: 5vw 9vw;
+  gap: 3vw;
+}
+.about-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5vw;
+  width: 50%;
+}
+.about-img img:nth-of-type(3) {
+  margin-top: -3vw;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1vw;
+  width: 50%;
+}
+.about-content a {
+  color: black;
+  text-decoration: none;
+  transition: 1s;
+}
+.about-content a:hover {
+  scale: 1.1;
+}
+
+/* Section Main */
+.main {
+  margin: 5vw 9vw;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+}

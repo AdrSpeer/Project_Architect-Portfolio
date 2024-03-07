@@ -1,0 +1,17 @@
+.gallery h2 {
+  margin: 4vw 5vw;
+  font-size: 50px;
+}
+.gallery span {
+  display: block;
+  color: gray;
+}
+
+.gallery-img {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  margin: 4vw 5vw;
+}

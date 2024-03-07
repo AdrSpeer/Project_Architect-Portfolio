@@ -1,0 +1,14 @@
+.main-box {
+  display: flex;
+  align-items: center;
+
+  gap: 1vw;
+  width: 100%;
+}
+.main-box h2 {
+  font-size: 60px;
+  color: rgba(128, 128, 128, 0.543);
+}
+.main-box p {
+  width: 50%;
+}

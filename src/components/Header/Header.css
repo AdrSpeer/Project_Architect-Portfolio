@@ -1,0 +1,32 @@
+header {
+  padding: 1vw 3vw;
+}
+
+header img:hover {
+  scale: 1.1;
+}
+header img {
+  transition: 1s;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav div img {
+  padding-left: 10vw;
+  cursor: pointer;
+}
+nav div a {
+  margin: 0 3vw;
+  text-decoration: none;
+  color: black;
+}
+nav div a:hover {
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}

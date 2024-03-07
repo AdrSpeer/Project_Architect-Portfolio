@@ -1,7 +1,21 @@
-.laoding-screen {
+.loading-screen {
   justify-content: center;
   align-items: center;
   display: flex;
   gap: 3vw;
   flex-direction: column;
+  margin-top: 10vw;
+}
+
+.loading-screen img {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

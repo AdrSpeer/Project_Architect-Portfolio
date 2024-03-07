@@ -24,8 +24,8 @@ const Header = () => {
             onClick={dark}
             src={
               dayNight
-                ? "../../../public/img/Mode -  Light.png"
-                : "../../../public/img/Mode -  Dark.png"
+                ? "../../../public/img/Mode -  Light.svg"
+                : "../../../public/img/Mode -  Dark.svg"
             }
             alt="Mond Icon"
           />

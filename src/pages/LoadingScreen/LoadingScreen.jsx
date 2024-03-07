@@ -9,7 +9,7 @@ const LoadingScreen = () => {
     setTimeout(() => {
       setLoading(true);
     }, 2000);
-  });
+  }, []);
   return (
     <section className="loading-screen">
       <h1>Welcome to our website!</h1>
